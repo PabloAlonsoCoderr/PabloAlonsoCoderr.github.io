@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../estilos/main.css" />
+  </head>
+  <body>
+    <div id="wrapper">
+      <div id="level">
+        <img src="../assets/juego/interface/interface_level.png" alt="" />
+        <div>
+          <span>NIVEL:</span>
+          <span id="nivel">1</span>
+        </div>
+      </div>
+
+      <main id="main"></main>
+
+      <div class="contador">
+        <img src="../assets/juego/interface/interface_tiempo.png" alt="" />
+        <div>
+          <p>TIEMPO RESTANTE</p>
+          <span id="minutos">00</span>:<span id="segundos">00</span>
+        </div>
+      </div>
+
+      <div class="movimientos">
+        <img src="../assets/juego/interface/interface_movimiento.png" alt="" />
+        <div>
+          <span id="mov">01</span>
+        </div>
+      </div>
+
+      <div id="ganador">
+        <!-- <h1 id="ganador">dasdsadsad</h1> -->
+      </div>
+    </div>
+
+    <script src="../js/actualizaciones.js"></script>
+    <script src="../js/globales.js"></script>
+    <script src="../js/descubrir_comparar.js"></script>
+    <script src="../js/iniciar.js"></script>
+    <script src="../js/acierto_error.js"></script>
+    <script src="../js/gameover.js"></script>
+    <script src="../js/cambio_nivel.js"></script>
+    <script src="../js/ganaste.js"></script>
+
+    <!-- <script src="./js/main.js"></script> -->
+  </body>
+</html>
